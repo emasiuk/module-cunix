@@ -7,8 +7,6 @@ int my_puts(const char *s)
   char c;
 
   i = -1;
-
-
   while (++i < strlen(s))
   {
     c = s[i];
